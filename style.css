@@ -1,0 +1,33 @@
+.st0{fill:none;stroke:#FFF;stroke-width:29;stroke-miterlimit:10;}
+body {
+  background-color:#03A9F4;
+  overflow: hidden;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+svg{
+  /* visibility:hidden; */
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    width:400px;
+    height:400px;
+  cursor: pointer;
+}
+#tick{
+  cursor: pointer;
+}
+text{
+  font-size:86px;
+  font-family: 'Ubuntu', sans-serif;
+}
